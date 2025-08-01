@@ -31,16 +31,82 @@ Um documento HTML básico começa com uma declaração de tipo de documento (DOC
 6. `<title>`: Define o título da página, exibido na aba do navegador.
 7. `<body>`: Contém o conteúdo visível da página, como textos, imagens e links.
 
-## Tags HTML
+---
 
-As **tags** HTML são usadas para estruturar e formatar o conteúdo de uma página web. Algumas das tags mais comuns incluem:
+## 🔤 **Tags HTML mais comuns para iniciantes**
 
-- `<h1> a <h6>`: Cabeçalhos de diferentes níveis (de 1 a 6, sendo `<h1>` o mais importante).
-- `<p>`: Define um parágrafo de texto.
-- `<a>`: Cria um link para outra página ou recurso.
-- `<img>`: Insere uma imagem na página.
-- `<ul>`, `<ol>`, `<li>`: Listas não ordenadas, ordenadas e itens de lista, respectivamente.
-- `<div>`: Elemento genérico para agrupar conteúdo.
+### 🏷️ **Estrutura básica**
+
+| Tag               | Significado                            | Exemplo rápido                  |
+| ----------------- | -------------------------------------- | ------------------------------- |
+| `<!DOCTYPE html>` | Define o tipo do documento como HTML5  | `<!DOCTYPE html>`               |
+| `<html>`          | Elemento raiz do HTML                  | `<html lang="pt-br">...</html>` |
+| `<head>`          | Cabeçalho da página (meta-infos)       | `<head>...</head>`              |
+| `<title>`         | Título que aparece na aba do navegador | `<title>Minha Página</title>`   |
+| `<body>`          | Corpo da página (conteúdo visível)     | `<body>...</body>`              |
+
+---
+
+### ✍️ **Conteúdo e texto**
+
+| Tag             | Uso                        | Exemplo                           |
+| --------------- | -------------------------- | --------------------------------- |
+| `<h1>` a `<h6>` | Títulos e subtítulos       | `<h1>Título</h1>`                 |
+| `<p>`           | Parágrafo de texto         | `<p>Texto aqui.</p>`              |
+| `<br>`          | Quebra de linha            | `Primeira linha<br>Segunda linha` |
+| `<hr>`          | Linha horizontal/divisória | `<hr>`                            |
+
+---
+
+### 📌 **Listas**
+
+| Tag    | Uso                    | Exemplo                  |
+| ------ | ---------------------- | ------------------------ |
+| `<ul>` | Lista **não ordenada** | `<ul><li>Item</li></ul>` |
+| `<ol>` | Lista **ordenada**     | `<ol><li>Item</li></ol>` |
+| `<li>` | Item da lista          | `<li>Elemento</li>`      |
+
+---
+
+### 🔗 **Links e mídia**
+
+| Tag       | Uso               | Exemplo                                     |
+| --------- | ----------------- | ------------------------------------------- |
+| `<a>`     | Link (âncora)     | `<a href="https://...">Clique</a>`          |
+| `<img>`   | Imagem            | `<img src="logo.png" alt="Logo">`           |
+| `<video>` | Vídeo incorporado | `<video controls src="video.mp4"></video>`  |
+| `<audio>` | Áudio incorporado | `<audio controls src="musica.mp3"></audio>` |
+
+---
+
+### 🧱 **Organização de layout**
+
+| Tag         | Uso                                | Exemplo                                   |
+| ----------- | ---------------------------------- | ----------------------------------------- |
+| `<div>`     | Container genérico                 | `<div>Conteúdo</div>`                     |
+| `<span>`    | Container inline (dentro do texto) | `<span style="color:red">vermelho</span>` |
+| `<section>` | Seção de conteúdo                  | `<section><h2>Blog</h2></section>`        |
+| `<article>` | Conteúdo independente (como post)  | `<article>...</article>`                  |
+| `<header>`  | Cabeçalho da página ou seção       | `<header>Menu</header>`                   |
+| `<footer>`  | Rodapé da página                   | `<footer>© 2025</footer>`                 |
+| `<nav>`     | Navegação (menu)                   | `<nav><a href="#">Home</a></nav>`         |
+| `<main>`    | Conteúdo principal da página       | `<main>Principal</main>`                  |
+
+---
+
+### 📋 **Formulários (básico)**
+
+| Tag                     | Uso                  | Exemplo                                   |
+| ----------------------- | -------------------- | ----------------------------------------- |
+| `<form>`                | Formulário           | `<form action="">...</form>`              |
+| `<input>`               | Campo de entrada     | `<input type="text">`                     |
+| `<label>`               | Rótulo para campo    | `<label for="nome">Nome</label>`          |
+| `<textarea>`            | Campo de texto maior | `<textarea></textarea>`                   |
+| `<button>`              | Botão de ação        | `<button>Enviar</button>`                 |
+| `<select>` / `<option>` | Menu suspenso        | `<select><option>Opção</option></select>` |
+
+---
+
 
 Exemplo de uso de tags:
 
