@@ -35,18 +35,6 @@ Um documento HTML básico começa com uma declaração de tipo de documento (DOC
 
 ## 🔤 **Tags HTML mais comuns para iniciantes**
 
-### 🏷️ **Estrutura básica**
-
-| Tag               | Significado                            | Exemplo rápido                  |
-| ----------------- | -------------------------------------- | ------------------------------- |
-| `<!DOCTYPE html>` | Define o tipo do documento como HTML5  | `<!DOCTYPE html>`               |
-| `<html>`          | Elemento raiz do HTML                  | `<html lang="pt-br">...</html>` |
-| `<head>`          | Cabeçalho da página (meta-infos)       | `<head>...</head>`              |
-| `<title>`         | Título que aparece na aba do navegador | `<title>Minha Página</title>`   |
-| `<body>`          | Corpo da página (conteúdo visível)     | `<body>...</body>`              |
-
----
-
 ### ✍️ **Conteúdo e texto**
 
 | Tag             | Uso                        | Exemplo                           |
